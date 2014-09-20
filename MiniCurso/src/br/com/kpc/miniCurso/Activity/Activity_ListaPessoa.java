@@ -19,7 +19,14 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-                                 //extends ListActivity  
+/**
+ * 
+ * @author Kennedi Malheiros
+ * @since 1.0 Activity para listar pessoas
+ * 
+ * 
+ */
+//extends ListActivity  
 public class Activity_ListaPessoa extends ListActivity {
 	private List<Pessoa> pessoa;
 	private ArrayAdapter<Pessoa> adapter;

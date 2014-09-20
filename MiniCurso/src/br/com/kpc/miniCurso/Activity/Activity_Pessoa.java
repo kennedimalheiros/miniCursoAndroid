@@ -26,8 +26,6 @@ public class Activity_Pessoa extends Activity {
 	private EditText nome;
 	private EditText cpf;
 	private EditText telefone;
-	private Button btCadastrar;
-	private Button btCancelar;
 	private Button btSair;
 	private Pessoa pessoa;
 	private boolean b;
@@ -41,8 +39,6 @@ public class Activity_Pessoa extends Activity {
 		nome = (EditText) findViewById(R.id.edtNome);
 		cpf = (EditText) findViewById(R.id.edtCpf);
 		telefone = (EditText) findViewById(R.id.edtTelefone);
-		btCadastrar = (Button) findViewById(R.id.btnSalvarPessoa);
-		btCancelar = (Button) findViewById(R.id.btnCancelarPessoa);
 		btSair = (Button) findViewById(R.id.btnSairPessoa);
 
 		// Exemplo de ação do botão Direto
