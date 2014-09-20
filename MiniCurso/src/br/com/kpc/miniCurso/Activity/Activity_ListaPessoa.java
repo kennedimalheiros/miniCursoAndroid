@@ -70,4 +70,13 @@ public class Activity_ListaPessoa extends ListActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+	@Override
+	protected void onStop() {
+		finish();
+		super.onStop();
+	}
+	
+	
+	
 }

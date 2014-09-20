@@ -5,6 +5,7 @@ import java.util.List;
 import br.com.kpc.miniCurso.R;
 import br.com.kpc.miniCurso.Entity.Pessoa;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,7 +64,7 @@ public class Adapter_Pessoa extends ArrayAdapter<Pessoa> {
 	}
 
 	@Override
-	public int getCount() {
+	public int getCount() {		
 		return allToDos.size();
 	}
 
