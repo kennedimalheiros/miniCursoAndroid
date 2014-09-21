@@ -38,6 +38,9 @@ public class Activity_TelaPrincipal extends Activity implements
 
 		MenuItem menu_principal = menu.add(0, MENUITEM_CAD_PESSOA, 0,
 				R.string.menuitem_cad_pessoa);
+		MenuItem menu_list = menu.add(0, MENUITEM_RELATORIO, 0,
+				R.string.menuitem_relatorios);
+
 		menu_principal.setIcon(android.R.drawable.ic_menu_agenda);
 
 		return true;
